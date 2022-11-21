@@ -23,6 +23,7 @@ https://pypi.org/project/tqdm/
 Usage Example:
 
 from audiomentations import AddGaussianNoise
+
 import numpy as np
 
 augment = Compose([AddGaussianNoise(min_amplitude=0.001, max_amplitude=0.015, p=0.5)
